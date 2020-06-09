@@ -48,6 +48,8 @@ function Apps() {
             <Modal
                 show={modalShow}
                 onHide={() => setModalShow(false)}
+                title={'Personal Expenses'}
+                description={'This application does stuff when you touch it with your fingers.'}
             />
             <Grid container spacing={5} className={classes.grid} >
                 <Grid item xs={12} sm={12} md={6} lg={4}>
