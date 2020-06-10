@@ -25,6 +25,7 @@ const useStyles = makeStyles((theme) => ({
         height: '100%',
         outline: 'none !important',
         borderRadius: '3%',
+        boxShadow: '0 10px 10px 5px rgba(0,0,0,0.05)',
         // backgroundColor: '#eeeeee',
 
     },
