@@ -18,14 +18,13 @@
   /* display: flex;
   align-self: flex-start;
   align-items: flex-start; */
+  margin: auto;
+  max-width: 60rem;
   width: 100%;
   left: 50%;
   right: 50%;
   top: 50%;
   position: absolute;
-  /* CHANGE THIS IF SMALLER DEVICE */
-  padding-left: 3rem;
-  /* ^^^^^^ */
   transform: translate(-50%, -50%);
   
 }
