@@ -7,7 +7,7 @@ export class Header extends React.Component {
     render() {
 
         return (
-            <ReactBootStrap.Navbar bg="white" expand="md" sticky="top">
+            <ReactBootStrap.Navbar bg="white" expand="md" sticky="top" className="navigationBar">
                 <ReactBootStrap.Navbar.Brand href="/">Logo</ReactBootStrap.Navbar.Brand>
                 <ReactBootStrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <ReactBootStrap.Navbar.Collapse id="basic-navbar-nav">

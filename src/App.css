@@ -4,6 +4,16 @@
   
 }
 
+.navbar {
+  padding: 0px !important;
+}
+
+.navigationBar {
+  margin: 0.5rem auto 0;
+  max-width: 60rem;
+  width: 100%;
+}
+
 .home {
   /* display: flex;
   align-self: flex-start;
@@ -42,12 +52,13 @@
 }
 
 .about {
+  margin: auto;
+  max-width: 60rem;
   width: 100%;
   left: 50%;
   right: 50%;
   top: 50%;
   position: absolute;
-  padding-left: 3rem;
   transform: translate(-50%, -50%);
 }
 
