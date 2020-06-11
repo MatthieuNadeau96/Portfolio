@@ -17,7 +17,7 @@ export class Header extends React.Component {
                         <ReactBootStrap.Nav.Link className="mr-auto" href="/about">About</ReactBootStrap.Nav.Link>
                         <ReactBootStrap.Nav.Link href="/apps">Apps</ReactBootStrap.Nav.Link>
                         <a className="nav-link" target="_blank" href="https://docs.google.com/document/d/1mOd70mZQglLXk9x_rW2e6FfhwsUCsk2LXfPPBjV9QxI/edit?usp=sharing">Resume</a>
-                        <ReactBootStrap.Nav.Link href="/contact">Contact</ReactBootStrap.Nav.Link>
+                        <a className="nav-link" href="mailto:matthieunadeau96@gmail.com">Contact</a>
                     </ReactBootStrap.Nav>
                 </ReactBootStrap.Navbar.Collapse>
             </ReactBootStrap.Navbar >
