@@ -1,0 +1,34 @@
+self.__precacheManifest = (self.__precacheManifest || []).concat([
+  {
+    "revision": "19325d62d7add602838b4f3d232a2668",
+    "url": "/portfolio/index.html"
+  },
+  {
+    "revision": "9c879ab66523baf0b642",
+    "url": "/portfolio/static/css/2.af3c1da9.chunk.css"
+  },
+  {
+    "revision": "68cdb74a600f232466ae",
+    "url": "/portfolio/static/css/main.bea9e97a.chunk.css"
+  },
+  {
+    "revision": "9c879ab66523baf0b642",
+    "url": "/portfolio/static/js/2.bab32f43.chunk.js"
+  },
+  {
+    "revision": "5e9b6f5c16b720e8a86875f97734673e",
+    "url": "/portfolio/static/js/2.bab32f43.chunk.js.LICENSE.txt"
+  },
+  {
+    "revision": "68cdb74a600f232466ae",
+    "url": "/portfolio/static/js/main.2655576d.chunk.js"
+  },
+  {
+    "revision": "88fbd3d397ae3690d5f2",
+    "url": "/portfolio/static/js/runtime-main.fb1b3dac.js"
+  },
+  {
+    "revision": "52026137162b48d09023fa9ae8230474",
+    "url": "/portfolio/static/media/chat-ui-mockup-bl.52026137.png"
+  }
+]);

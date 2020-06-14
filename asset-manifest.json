@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.bea9e97a.chunk.css",
-    "main.js": "/static/js/main.2f30da7b.chunk.js",
-    "main.js.map": "/static/js/main.2f30da7b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e5fc83a6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e5fc83a6.js.map",
-    "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.bab32f43.chunk.js": "/static/js/2.bab32f43.chunk.js",
-    "static/js/2.bab32f43.chunk.js.map": "/static/js/2.bab32f43.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.ef0481846cbd086c36177e719349d7af.js": "/precache-manifest.ef0481846cbd086c36177e719349d7af.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.bea9e97a.chunk.css.map": "/static/css/main.bea9e97a.chunk.css.map",
-    "static/js/2.bab32f43.chunk.js.LICENSE.txt": "/static/js/2.bab32f43.chunk.js.LICENSE.txt",
-    "static/media/chat-ui-mockup-bl.png": "/static/media/chat-ui-mockup-bl.52026137.png"
+    "main.css": "/portfolio/static/css/main.bea9e97a.chunk.css",
+    "main.js": "/portfolio/static/js/main.2655576d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.2655576d.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.fb1b3dac.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.fb1b3dac.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/portfolio/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.bab32f43.chunk.js": "/portfolio/static/js/2.bab32f43.chunk.js",
+    "static/js/2.bab32f43.chunk.js.map": "/portfolio/static/js/2.bab32f43.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.b0719a7d7d7ec600179bd8b16c79623f.js": "/portfolio/precache-manifest.b0719a7d7d7ec600179bd8b16c79623f.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/portfolio/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.bea9e97a.chunk.css.map": "/portfolio/static/css/main.bea9e97a.chunk.css.map",
+    "static/js/2.bab32f43.chunk.js.LICENSE.txt": "/portfolio/static/js/2.bab32f43.chunk.js.LICENSE.txt",
+    "static/media/chat-ui-mockup-bl.png": "/portfolio/static/media/chat-ui-mockup-bl.52026137.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e5fc83a6.js",
+    "static/js/runtime-main.fb1b3dac.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.bab32f43.chunk.js",
     "static/css/main.bea9e97a.chunk.css",
-    "static/js/main.2f30da7b.chunk.js"
+    "static/js/main.2655576d.chunk.js"
   ]
 }
