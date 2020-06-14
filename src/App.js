@@ -5,11 +5,11 @@ import Apps from './components/Apps';
 import { About } from './components/About';
 import { Home } from './components/Home';
 import './App.css';
-import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+    <HashRouter basename='/'>
       <div className="App">
         <Header />
         <Route exact path='/' component={Home} />
@@ -17,7 +17,7 @@ function App() {
         <Route path='/apps' component={Apps} />
 
       </div >
-    </Router>
+    </HashRouter>
     // <Router history={browserHistory}>
     //   <Route path={'apps'} component={'Apps'} />
     //   <Route path={'about'} component={'About'} />

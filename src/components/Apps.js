@@ -3,6 +3,12 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Grid, Paper } from '@material-ui/core';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import Modal from './Modal';
+import chatUiImage from '../imgs/chat-ui-mockup-bl.png';
+import pomodoroImage from '../imgs/pomodoro-mockup-bl.png';
+import mealsImage from '../imgs/meals-mockup-bl.png';
+import personalExpenseImage from '../imgs/personal-expenses-mockup-bl.png';
+import snakeImage from '../imgs/snake-mockup-bl.png';
+import xylophoneImage from '../imgs/xylophone-mockup-bl.png';
 
 const useStyles = makeStyles((theme) => ({
 
@@ -63,10 +69,10 @@ function Apps() {
                     <ButtonBase className={classes.image} onClick={() => {
                         resetTitle('Pomodoro Timer');
                         resetDescription('Pomodoro productivity timer.');
-                        resetImage('/images/pomodoro-mockup-bl.png'); // ***********************
+                        resetImage({ pomodoroImage }); // ***********************
                         setModalShow(true);
                     }}>
-                        <img className={classes.img} alt="complex" src="/images/pomodoro-mockup-bl.png" />
+                        <img className={classes.img} alt="complex" src={pomodoroImage} />
                     </ButtonBase>
                 </Grid>
 
@@ -74,52 +80,52 @@ function Apps() {
                     <ButtonBase className={classes.image} onClick={() => {
                         resetTitle('Chat UI');
                         resetDescription('Simple chat user interface.');
-                        resetImage('/images/chat-ui-mockup-bl.png')  // ***********************
+                        resetImage(chatUiImage)  // ***********************
                         setModalShow(true);
                     }}>
-                        <img className={classes.img} alt="complex" src="/images/chat-ui-mockup-bl.png" />
+                        <img className={classes.img} alt="complex" src={chatUiImage} />
                     </ButtonBase>
                 </Grid>
                 <Grid item xs={12} sm={12} md={6} lg={4}>
                     <ButtonBase className={classes.image} onClick={() => {
                         resetTitle('Personal Expenses');
                         resetDescription('Keep track of the money you spend each week.');
-                        resetImage('/images/personal-expenses-mockup-bl.png');  // ***********************
+                        resetImage(personalExpenseImage);  // ***********************
 
                         setModalShow(true);
                     }}>
-                        <img className={classes.img} alt="complex" src="/images/personal-expenses-mockup-bl.png" />
+                        <img className={classes.img} alt="complex" src={personalExpenseImage} />
                     </ButtonBase>
                 </Grid>
                 <Grid item xs={12} sm={12} md={6} lg={4}>
                     <ButtonBase className={classes.image} onClick={() => {
                         resetTitle('Snake Game');
                         resetDescription('Play snake on your phone.');
-                        resetImage('/images/snake-mockup-bl.png');  // ***********************
+                        resetImage(snakeImage);  // ***********************
 
                         setModalShow(true);
                     }}>
-                        <img className={classes.img} alt="complex" src="/images/snake-mockup-bl.png" />
+                        <img className={classes.img} alt="complex" src={snakeImage} />
                     </ButtonBase>
                 </Grid>
                 <Grid item xs={12} sm={12} md={6} lg={4} onClick={() => {
                     resetTitle('Meals App');
                     resetDescription('Check out categorized recipes');
-                    resetImage('/images/meals-mockup-bl.png');  // ***********************
+                    resetImage(mealsImage);  // ***********************
                     setModalShow(true);
                 }}>
                     <ButtonBase className={classes.image}>
-                        <img className={classes.img} alt="complex" src="/images/meals-mockup-bl.png" />
+                        <img className={classes.img} alt="complex" src={mealsImage} />
                     </ButtonBase>
                 </Grid>
                 <Grid item xs={12} sm={12} md={6} lg={4} onClick={() => {
                     resetTitle('Xylophone App');
                     resetDescription('Play little songs on this xylophone.');
-                    resetImage('/images/xylophone-mockup-bl.png');  // ***********************
+                    resetImage(xylophoneImage);  // ***********************
                     setModalShow(true);
                 }}>
                     <ButtonBase className={classes.image}>
-                        <img className={classes.img} alt="complex" src="/images/xylophone-mockup-bl.png" />
+                        <img className={classes.img} alt="complex" src={xylophoneImage} />
                     </ButtonBase>
                 </Grid>
             </Grid>

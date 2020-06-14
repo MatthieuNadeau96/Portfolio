@@ -8,14 +8,14 @@ export class Header extends React.Component {
 
         return (
             <ReactBootStrap.Navbar bg="white" expand="md" sticky="top" className="navigationBar">
-                <ReactBootStrap.Navbar.Brand href="/">Logo</ReactBootStrap.Navbar.Brand>
+                <Link to='/'><ReactBootStrap.Navbar.Brand>Logo</ReactBootStrap.Navbar.Brand></Link>
                 <ReactBootStrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <ReactBootStrap.Navbar.Collapse id="basic-navbar-nav">
                     <ReactBootStrap.Nav className="mr-auto">
                     </ReactBootStrap.Nav>
                     <ReactBootStrap.Nav className="">
-                        <ReactBootStrap.Nav.Link className="mr-auto" href="/about">About</ReactBootStrap.Nav.Link>
-                        <ReactBootStrap.Nav.Link href="/apps">Apps</ReactBootStrap.Nav.Link>
+                        <li><Link className="nav-link" to='/about'>About</Link></li>
+                        <li><Link className="nav-link" to='/apps'>Apps</Link></li>
                         <a className="nav-link" target="_blank" href="https://docs.google.com/document/d/1mOd70mZQglLXk9x_rW2e6FfhwsUCsk2LXfPPBjV9QxI/edit?usp=sharing">Resume</a>
                         <a className="nav-link" href="mailto:matthieunadeau96@gmail.com">Contact</a>
                     </ReactBootStrap.Nav>
