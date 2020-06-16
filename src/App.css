@@ -89,6 +89,23 @@
   margin: auto;
 }
 
+.navbar-collapse {
+  text-align: center;
+  border-bottom: 5px solid 0 !important;
+}
+.navbar-nav .nav-link {
+  /* background-color: rgba(0,0,0,0.5); */
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  left: 50%;
+  right: 50%;
+}
+
+.navbar-toggler {
+  border: none !important;
+  padding: 0 !important;
+}
+
+
 
 @media (max-width: 1062px) {
   .home {
